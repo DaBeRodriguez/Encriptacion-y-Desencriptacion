@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opciones</title>
+    <title>Sistema</title>
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
     <header>
-            <h1>
-                ¿Que desea hacer?
-            </h1>
+        <H1> Desencriptar: </H1>
     </header>
-
     <main>
-        <button  onclick="redireccion1 ()"> Encriptar </button>
-        <button  onclick="redireccion2 ()"> Desencriptar </button>
-    </main>
 
+        <label for="msgcodigo">Codigo de mensaje:</label>
+        <input  type="text" id="msgcodigo"> <br><br>
+
+        <button onclick="desencriptar()"> Desencriptar</button>
+        <br> <br> <hr><br><br>
+
+        <label for="msjreal"> Mensaje Real: </label>
+        <span id="msjreal"></span>
+        <br><br>
+
+    </main>
     <footer>
 
     </footer>
     <script src="JS/index.js"></script>
-    
 </body>
 </html>

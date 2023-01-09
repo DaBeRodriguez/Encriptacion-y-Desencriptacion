@@ -5,13 +5,20 @@ function ingresar() {
 
     if (password == Passwordsistema) { 
         document.getElementById("error").innerHTML = " ";
-        location.href ="sistema.html"
+        location.href ="opciones.html";
 
 
     } else {
         document.getElementById("error").innerHTML = Mensajeerror;
     }
 
+}
+function redireccion1 (){
+    location.href ="encriptar.html";
+}
+
+function redireccion2 (){
+    location.href = "desencriptar.html"
 }
 function encriptar(){
 
