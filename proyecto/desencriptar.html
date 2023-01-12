@@ -6,27 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema</title>
     <link rel="stylesheet" href="CSS/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="button.css">
+  </head>
+  
+  <body>
     <header>
-        <H1> Desencriptar: </H1>
-    </header>
-    <main>
-
-        <label for="msgcodigo">Codigo de mensaje:</label>
-        <input  type="text" id="msgcodigo"> <br><br>
-
-        <button onclick="desencriptar()"> Desencriptar</button>
-        <br> <br> <hr><br><br>
-
-        <label for="msjreal"> Mensaje Real: </label>
-        <span id="msjreal"></span>
-        <br><br>
-
-    </main>
-    <footer>
-
-    </footer>
+      <i class="fa-solid fa-arrow-up"  onclick="opciones()"></i>
+          <H1 class="titulo"> Desencriptar: </H1>
+      </header>
+      <main>
+  
+          <label  for="msgcodigo">Codigo de mensaje:</label>
+          <input  type="text" id="msgcodigo"> <br><br>
+  
+    <a  class="btn-neon" onclick="desencriptar()" >
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
+          <span id="span4"></span>
+          Desencriptar
+      </a>
+  
+        
+          <hr><br>
+        <div class="labels">
+          
+          <label for="msjreal"> Mensaje Real: </label>
+          <span  id="msjreal"></span>
+          
+        </div>
+          <br><br>
+  
+      </main>
+      <footer>
+  
+      </footer>
     <script src="JS/index.js"></script>
 </body>
 </html>

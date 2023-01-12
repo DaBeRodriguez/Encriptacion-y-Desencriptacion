@@ -1,5 +1,5 @@
 function ingresar() {
-    var Passwordsistema = '12345678910'
+    var Passwordsistema = '12'
     var Mensajeerror = 'Contraseña incorrecta'
     var password = document.getElementById("password").value;
     var nombreUsser =document.getElementById("nombre").value;
@@ -26,6 +26,14 @@ function redireccion1 (){
 function redireccion2 (){
     location.href = "desencriptar.html"
 }
+function ir_Inicio(){
+   location.href = "index.html"
+}
+
+function opciones(){
+  location.href="opciones.html"
+}
+
 function encriptar(){
 
     var mensaje = document.getElementById("mensaje").value;

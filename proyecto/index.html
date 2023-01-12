@@ -7,39 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="button.css">
 </head>
 
 <body>
-    <header>
-        <h1> Codificador y Decodificador </h1> <hr>
+  <header>
+        <h1 class="titulo"> Codificador y Decodificador </h1> <hr>
     </header>
 
     <main>
         <p>
             Bienvenidos a un sistema de cifrado , este sistema te permite cifrar y descifrar texto a partir de un algoritmo de cifrado.
 
-            Para cifrar un texto simplemente hay que poner en el recuadro superior el texto que quieres cifrar y poner una contraseña. Después de enviarlo desaparecerá el texto original del recuadro y aparecerá el texto cifrado.
+            Para cifrar un texto(encriptar) simplemente hay que poner en el recuadro superior el texto que quieres cifrar(encriptar) y poner una contraseña. Después de enviarlo desaparecerá el texto original del recuadro y aparecerá el texto cifrado.
             
-            Para descifrar un texto colocas el  texto cifrado ,luego de reeenviarlo te apaarecera el texto original.
+            Para descifrar(desencriptar) un texto colocas el  texto cifrado ,luego de reeenviarlo te aparecera el texto original.
         </p>
 
-        <label for="nombre"></label>
-        <input type="text" id="nombre" placeholder="Ingrese su nombre">
-        
+      
+      <label  for="nombre"></label>
+        <input  class="inputs" type="text" id="nombre" placeholder="Ingrese su nombre">
+<br> <br>
         <label for="password"></label>
-        <input type="password" placeholder="Ingrese contraseña" id="password"> <br><br>
+        <input class="inputs" type="password" placeholder="Ingrese contraseña" id="password"> <br><br>
 
-        <button onclick="ingresar()" >Ingresar</button>
+      
+      
+        <button class="butt" onclick="ingresar()" >INGRESAR</button>
 
-        <span id="error"> </span>
+        <span class ="alerta" id="error"> </span>
 
 
 
     </main>
 
     <footer>
-
+ 
     </footer>
+
     
     <script src="JS/index.js"></script>
 </body>
