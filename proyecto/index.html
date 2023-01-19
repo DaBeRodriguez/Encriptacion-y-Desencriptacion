@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
-    <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" href="button.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="CSS/index.css">
+  <!--   link del boton -->
+  <link rel="stylesheet" href="CSS/button.css">
 </head>
 
 <body>
   <header>
-        <h1 class="titulo"> Codificador y Decodificador </h1> <hr>
-    </header>
+    <h1 class="titulo"> Codificador y Decodificador </h1>
+    <hr>
+  </header>
 
-    <main>
-        <p>
-            Bienvenidos a un sistema de cifrado , este sistema te permite cifrar y descifrar texto a partir de un algoritmo de cifrado.
+  <main>
+    <p>
+      Bienvenidos a un sistema de cifrado , este sistema te permite cifrar y descifrar texto a partir de un algoritmo de
+      cifrado.
 
-            Para cifrar un texto(encriptar) simplemente hay que poner en el recuadro superior el texto que quieres cifrar(encriptar) y poner una contraseña. Después de enviarlo desaparecerá el texto original del recuadro y aparecerá el texto cifrado.
-            
-            Para descifrar(desencriptar) un texto colocas el  texto cifrado ,luego de reeenviarlo te aparecera el texto original.
-        </p>
+      Para cifrar un texto(encriptar) simplemente hay que poner en el recuadro superior el texto que quieres
+      cifrar(encriptar) y poner una contraseña. Después de enviarlo desaparecerá el texto original del recuadro y
+      aparecerá el texto cifrado.
 
-      
-      <label  for="nombre"></label>
-        <input  class="inputs" type="text" id="nombre" placeholder="Ingrese su nombre">
-<br> <br>
-        <label for="password"></label>
-        <input class="inputs" type="password" placeholder="Ingrese contraseña" id="password"> <br><br>
-
-      
-      
-        <button class="butt" onclick="ingresar()" >INGRESAR</button>
-
-        <span class ="alerta" id="error"> </span>
+      Para descifrar(desencriptar) un texto colocas el texto cifrado ,luego de reeenviarlo te aparecera el texto
+      original.
+    </p>
 
 
+    <label for="nombre"></label>
+    <input class="inputs" type="text" id="nombre" placeholder="Ingrese su nombre">
+    <br> <br>
+    <label for="password"> </label>
+    <input class="inputs" type="password" placeholder="Ingrese contraseña" id="password"> <br><br>
 
-    </main>
 
-    <footer>
- 
-    </footer>
+
+    <button class="butt" onclick="Ingresar()">INGRESAR</button>
+    <button > <a href="crearcuenta.html">Crear Cuenta </a> </button>
+
+    <div class="espacio"></div>
+    
+    <span class="alerta" id="error"> </span>
+
+
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+
 
     
     <script src="JS/index.js"></script>
